@@ -7,18 +7,14 @@ function weeklyWage(band, weeklyHours) {
           hrsTot += hrsNum;
      }
         if(band === 'A' && hrsArr.length === 7){
-           let wage = hrsTot * 23;
-            return wage;
+            return hrsTot * 23; 
         }else if(band === 'B' && hrsArr.length === 7){
-            let wage = hrsTot * 37;
-            return wage
+             return  hrsTot * 37;
         }else if(band === 'C' && hrsArr.length === 7){
-            let wage = hrsTot * 51;
-            return wage;
+         return hrsTot * 51;
+                        ;
         }else if(hrsArr.length !== 7){
-
-            return 'missing day';
+         return 'missing day';
         }
         return 0;
-
 };
