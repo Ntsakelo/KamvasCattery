@@ -1,8 +1,5 @@
 function weeklyWage(band, weeklyHours) {
   let hrsArr = weeklyHours.split(',');
-  let A = 23;
-  let B = 37;
-  let C = 51;
   let hrsTot = 0;
   for(let i = 0; i < hrsArr.length;i++){
       let hrsStr = hrsArr[i].trim();
